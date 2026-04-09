@@ -1,0 +1,18 @@
+{
+  "name": "playwright-priority-crawler",
+  "version": "1.0.0",
+  "description": "Production-grade Playwright crawler with adaptive scoring and live dashboard",
+  "main": "src/main.js",
+  "type": "commonjs",
+  "scripts": {
+    "start": "node src/main.js",
+    "lint:check": "node --check src/main.js"
+  },
+  "dependencies": {
+    "adm-zip": "^0.5.16",
+    "express": "^4.21.2",
+    "playwright": "^1.52.0",
+    "socket.io": "^4.8.1",
+    "winston": "^3.17.0"
+  }
+}
